@@ -1,0 +1,18 @@
+{"time":"2024-12-16T10:57:32.8957581+01:00","level":"INFO","msg":"using version","core version":"0.19.0"}
+{"time":"2024-12-16T10:57:32.8957581+01:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\rickv\\Documents\\GitHub\\2024-25b-fai2-adsai-RickVerburg232906\\Robotics\\wandb\\run-20241216_105732-mzxiwkdn\\logs\\debug-core.log"}
+{"time":"2024-12-16T10:57:33.0454866+01:00","level":"INFO","msg":"created new stream","id":"mzxiwkdn"}
+{"time":"2024-12-16T10:57:33.0454866+01:00","level":"INFO","msg":"stream: started","id":"mzxiwkdn"}
+{"time":"2024-12-16T10:57:33.0454866+01:00","level":"INFO","msg":"handler: started","stream_id":"mzxiwkdn"}
+{"time":"2024-12-16T10:57:33.0454866+01:00","level":"INFO","msg":"sender: started","stream_id":"mzxiwkdn"}
+{"time":"2024-12-16T10:57:33.0454866+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"mzxiwkdn"}
+{"time":"2024-12-16T10:57:33.6048846+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-16T10:57:34.6761926+01:00","level":"INFO","msg":"stream: closing","id":"mzxiwkdn"}
+{"time":"2024-12-16T10:57:34.6761926+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-16T10:57:34.6767059+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-16T10:57:43.9240871+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2024-12-16T10:57:43.9349961+01:00","level":"ERROR","msg":"tensorboard: error creating symlink","target":"C:\\Users\\rickv\\Documents\\GitHub\\2024-25b-fai2-adsai-RickVerburg232906\\Robotics\\runs\\mzxiwkdn\\runs\\mzxiwkdn_0\\events.out.tfevents.1734343053.MSI.16828.0","symlink":"C:\\Users\\rickv\\Documents\\GitHub\\2024-25b-fai2-adsai-RickVerburg232906\\Robotics\\wandb\\run-20241216_105732-mzxiwkdn\\files\\runs\\mzxiwkdn\\runs\\mzxiwkdn_0\\events.out.tfevents.1734343053.MSI.16828.0","error":"symlink C:\\Users\\rickv\\Documents\\GitHub\\2024-25b-fai2-adsai-RickVerburg232906\\Robotics\\runs\\mzxiwkdn\\runs\\mzxiwkdn_0\\events.out.tfevents.1734343053.MSI.16828.0 C:\\Users\\rickv\\Documents\\GitHub\\2024-25b-fai2-adsai-RickVerburg232906\\Robotics\\wandb\\run-20241216_105732-mzxiwkdn\\files\\runs\\mzxiwkdn\\runs\\mzxiwkdn_0\\events.out.tfevents.1734343053.MSI.16828.0: A required privilege is not held by the client."}
+{"time":"2024-12-16T10:57:44.4952129+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-16T10:57:44.7133077+01:00","level":"INFO","msg":"handler: closed","stream_id":"mzxiwkdn"}
+{"time":"2024-12-16T10:57:44.7133077+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"mzxiwkdn"}
+{"time":"2024-12-16T10:57:44.7133077+01:00","level":"INFO","msg":"sender: closed","stream_id":"mzxiwkdn"}
+{"time":"2024-12-16T10:57:44.7138156+01:00","level":"INFO","msg":"stream: closed","id":"mzxiwkdn"}

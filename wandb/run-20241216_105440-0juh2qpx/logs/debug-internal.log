@@ -1,0 +1,18 @@
+{"time":"2024-12-16T10:54:40.155373+01:00","level":"INFO","msg":"using version","core version":"0.19.0"}
+{"time":"2024-12-16T10:54:40.1558952+01:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\rickv\\Documents\\GitHub\\2024-25b-fai2-adsai-RickVerburg232906\\Robotics\\wandb\\run-20241216_105440-0juh2qpx\\logs\\debug-core.log"}
+{"time":"2024-12-16T10:54:40.2873897+01:00","level":"INFO","msg":"created new stream","id":"0juh2qpx"}
+{"time":"2024-12-16T10:54:40.2873897+01:00","level":"INFO","msg":"stream: started","id":"0juh2qpx"}
+{"time":"2024-12-16T10:54:40.2873897+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"0juh2qpx"}
+{"time":"2024-12-16T10:54:40.2873897+01:00","level":"INFO","msg":"handler: started","stream_id":"0juh2qpx"}
+{"time":"2024-12-16T10:54:40.2873897+01:00","level":"INFO","msg":"sender: started","stream_id":"0juh2qpx"}
+{"time":"2024-12-16T10:54:40.8621418+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-16T10:54:41.6758461+01:00","level":"INFO","msg":"stream: closing","id":"0juh2qpx"}
+{"time":"2024-12-16T10:54:41.6758461+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-16T10:54:41.6758461+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-16T10:54:51.1554608+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2024-12-16T10:54:51.1573144+01:00","level":"ERROR","msg":"tensorboard: error creating symlink","target":"C:\\Users\\rickv\\Documents\\GitHub\\2024-25b-fai2-adsai-RickVerburg232906\\Robotics\\runs\\0juh2qpx\\runs\\0juh2qpx_0\\events.out.tfevents.1734342881.MSI.24220.0","symlink":"C:\\Users\\rickv\\Documents\\GitHub\\2024-25b-fai2-adsai-RickVerburg232906\\Robotics\\wandb\\run-20241216_105440-0juh2qpx\\files\\runs\\0juh2qpx\\runs\\0juh2qpx_0\\events.out.tfevents.1734342881.MSI.24220.0","error":"symlink C:\\Users\\rickv\\Documents\\GitHub\\2024-25b-fai2-adsai-RickVerburg232906\\Robotics\\runs\\0juh2qpx\\runs\\0juh2qpx_0\\events.out.tfevents.1734342881.MSI.24220.0 C:\\Users\\rickv\\Documents\\GitHub\\2024-25b-fai2-adsai-RickVerburg232906\\Robotics\\wandb\\run-20241216_105440-0juh2qpx\\files\\runs\\0juh2qpx\\runs\\0juh2qpx_0\\events.out.tfevents.1734342881.MSI.24220.0: A required privilege is not held by the client."}
+{"time":"2024-12-16T10:54:51.8535473+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-16T10:54:52.0974669+01:00","level":"INFO","msg":"handler: closed","stream_id":"0juh2qpx"}
+{"time":"2024-12-16T10:54:52.0974669+01:00","level":"INFO","msg":"sender: closed","stream_id":"0juh2qpx"}
+{"time":"2024-12-16T10:54:52.0974669+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"0juh2qpx"}
+{"time":"2024-12-16T10:54:52.0979736+01:00","level":"INFO","msg":"stream: closed","id":"0juh2qpx"}
