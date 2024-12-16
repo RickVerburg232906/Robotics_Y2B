@@ -27,7 +27,7 @@ class OT2Env(gym.Env):
 
         # Reset the state of the environment to an initial state
         # set a random goal position for the agent, consisting of x, y, and z coordinates within the working area (you determined these values in the previous datalab task)
-        self.goal_position = self.goal_position = np.array([
+        self.goal_position = np.array([
             np.random.uniform(-0.1875, 0.2535),  # Random x within range
             np.random.uniform(-0.1705, 0.2199),  # Random y within range
             np.random.uniform(0.12, 0.2895)   # Random z within range
