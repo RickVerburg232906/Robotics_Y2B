@@ -26,7 +26,7 @@ os.environ['WANDB_API_KEY'] = '0ddb0f470edd0040c38a43b321ab839607185a29'
 
 import wandb
 from wandb.integration.sb3 import WandbCallback
-from ot2_gym_wrapper.py import OT2Env
+from ot2_gym_wrapper import OT2Env
 
 # initialize wandb project
 run = wandb.init(project="Task11",sync_tensorboard=True)
