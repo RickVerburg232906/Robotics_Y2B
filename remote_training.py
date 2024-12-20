@@ -1,5 +1,4 @@
 from clearml import Task
-import tensorflow
 from typing_extensions import TypeIs
 
 # Use the appropriate project name and task name (if you are in the first group in Dean's mentor group, use the project name 'Mentor Group D/Group 1')
