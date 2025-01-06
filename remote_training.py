@@ -1,4 +1,5 @@
 from clearml import Task
+from typing_extensions import TypeIs
 
 # Use the appropriate project name and task name (if you are in the first group in Dean's mentor group, use the project name 'Mentor Group D/Group 1')
 # It can also be helpful to include the hyperparameters in the task name
