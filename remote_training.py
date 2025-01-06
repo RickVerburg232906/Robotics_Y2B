@@ -6,6 +6,7 @@ import tensorflow
 import os
 
 os.environ['WANDB_API_KEY'] = '0ddb0f470edd0040c38a43b321ab839607185a29'
+os.environ["WANDB_SYMLINK"] = "false"
 
 # Use the appropriate project name and task name (if you are in the first group in Dean's mentor group, use the project name 'Mentor Group D/Group 1')
 # It can also be helpful to include the hyperparameters in the task name
@@ -22,16 +23,13 @@ task.execute_remotely(queue_name="default")
 from stable_baselines3 import PPO
 import gym
 import time
-
-env = gym.make('Pendulum-v1',g=9.81)
-
-
 import wandb
 from wandb.integration.sb3 import WandbCallback
 from ot2_gym_wrapper import OT2Env
 
 # initialize wandb project
 run = wandb.init(project="Task11",sync_tensorboard=True)
+save_path = f"models/{run.id}"
 
 # add tensorboard logging to the model
 wrapped_env = OT2Env()
