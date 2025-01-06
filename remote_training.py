@@ -1,6 +1,12 @@
 from clearml import Task
 from typing_extensions import TypeIs
 import tensorflow
+
+# Add Weights and Biases for Experiment Tracking
+import os
+
+os.environ['WANDB_API_KEY'] = '0ddb0f470edd0040c38a43b321ab839607185a29'
+
 # Use the appropriate project name and task name (if you are in the first group in Dean's mentor group, use the project name 'Mentor Group D/Group 1')
 # It can also be helpful to include the hyperparameters in the task name
 task = Task.init(project_name='Mentor Group D/Group 1', task_name='Experiment1_RickVerburg')
@@ -19,10 +25,6 @@ import time
 
 env = gym.make('Pendulum-v1',g=9.81)
 
-# Add Weights and Biases for Experiment Tracking
-import os
-
-os.environ['WANDB_API_KEY'] = '0ddb0f470edd0040c38a43b321ab839607185a29'
 
 import wandb
 from wandb.integration.sb3 import WandbCallback
