@@ -1,6 +1,6 @@
 from clearml import Task
 from typing_extensions import TypeIs
-
+import tensorflow
 # Use the appropriate project name and task name (if you are in the first group in Dean's mentor group, use the project name 'Mentor Group D/Group 1')
 # It can also be helpful to include the hyperparameters in the task name
 task = Task.init(project_name='Mentor Group D/Group 1', task_name='Experiment1_RickVerburg')
