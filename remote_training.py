@@ -32,7 +32,7 @@ run = wandb.init(project="Task11",sync_tensorboard=True)
 save_path = f"models/{run.id}"
 
 # add tensorboard logging to the model
-wrapped_env = OT2Env()
+wrapped_env = OT2Env(render=False)
 
 # Define the arguments
 import argparse
